@@ -21,7 +21,7 @@ function Footer() {
     <div className='footer'>
       <div className="left">
         <div className="links">
-          <Link href="https://github.com/abhishek2813/Typing-Test" underline="none" color="inherit">
+          <Link href="https://speed-testing.netlify.app/" underline="none" color="inherit">
             <GitHubIcon fontSize="large" />
           </Link>
           <Link href="https://www.linkedin.com/in/rohit-rai-237415133" underline="none" color="inherit">

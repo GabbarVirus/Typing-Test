@@ -101,6 +101,9 @@ body{
     margin-left:auto;
     justify-content:space-between;
   }
+  .space{
+    margin:0.7rem;
+  }
   .stats-box{
     display:flex;
     width:1000px;

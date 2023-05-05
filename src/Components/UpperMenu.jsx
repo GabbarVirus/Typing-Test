@@ -8,16 +8,25 @@ function UpperMenu({ countDown }) {
   }
 
   return (
+    <div style={{    display: "grid",
+      marginLeft: "auto",
+      marginRight: "auto",
+      width: "1000px",
+  }}>
+    <div className='select-time' style={{display:"flex",justifyContent:'flex-end'}}>Select Time</div>
     <div className='upper-menu'>
+    
       <div className="counter">
         {countDown}s
       </div>
+      
       <div className="modes">
         <div className="time-mode" id='15' onClick={updateTime}>15s</div>
         <div className="time-mode" id='30' onClick={updateTime}>30s</div>
         <div className="time-mode" id='60' onClick={updateTime}>60s</div>
         <div className="time-mode" id='75' onClick={updateTime}>75s</div>
       </div>
+    </div>
     </div>
   )
 }

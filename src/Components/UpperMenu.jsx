@@ -13,7 +13,7 @@ function UpperMenu({ countDown }) {
       marginRight: "auto",
       width: "1000px",
   }}>
-    <div className='select-time' style={{display:"flex",justifyContent:'flex-end'}}>Select Time</div>
+    <div className='select-time' style={{display:"flex",justifyContent:'flex-end'}}>Select Timer</div>
     <div className='upper-menu'>
     
       <div className="counter">

@@ -10,7 +10,7 @@ function Header() {
     <div className='header'>
       <div className="logo" style={{cursor:'pointer'}} onClick={()=>{navigate('/')}}>
         <Typography variant='h3'>
-        <KeyboardIcon sx={{ fontSize: 40}}/>Typing World
+        <KeyboardIcon sx={{ fontSize: 40}}/>Keyboard Kingdom 👑
         </Typography>
       </div>
       <div className="user-icon" style={{cursor:'pointer'}}>

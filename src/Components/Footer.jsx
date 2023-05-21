@@ -21,7 +21,7 @@ function Footer() {
     <div className='footer'>
       <div className="left">
         <div className="links">
-          <Link className='space' href="https://github.com/GabbarVirus/Typing-Test" underline="none" color="inherit">
+          <Link className='space' href="https://github.com/RohitRai07/Typing-Test" underline="none" color="inherit">
             <GitHubIcon fontSize="large" />
           </Link>
           <Link className='space' href="https://www.linkedin.com/in/rohit-rai-237415133" underline="none" color="inherit">
